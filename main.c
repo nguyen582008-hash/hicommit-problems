@@ -4,15 +4,15 @@ int main() {
     int a, b, c;
     scanf("%d %d %d", &a, &b, &c);
 
-    int max = a;
+    int lon_nhat = a;
 
-    if (b > max)
-        max = b;
+    if (b > lon_nhat)
+        lon_nhat = b;
 
-    if (c > max)
-        max = c;
+    if (c > lon_nhat)
+        lon_nhat = c;
 
-    printf("%d", max);
+    printf("%d", lon_nhat);
 
     return 0;
 }
