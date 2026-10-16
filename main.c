@@ -1,19 +1,13 @@
 #include <stdio.h>
 
 int main() {
-  #include<stdio.h>
+    int n;
+    scanf("%d", &n);
 
-int main(){
-  int n;
-  scanf("%d",&n);
-  if(n%2 == 0)
-  {
-    printf("CHAN");
-  }
-  else 
-  {
-   printf("LE");
-  }
-}
-  return 0;
+    if (n % 2 == 0)
+        printf("CHAN");
+    else
+        printf("LE");
+
+    return 0;
 }
