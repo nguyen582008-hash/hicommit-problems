@@ -7,15 +7,15 @@ int main()
   scanf ("%f,%d", &dtb, &drl) != 2)
   if (dtb >=9.0) && drl >= 90
   {
-    printf("XUAT_SAC");
+    printf("HOC_BONG_XUAT_SAC");
   }
   else if ( 8.0 <= dtb < 9.0) && 80 <= drl < 90
   {
-    printf ("GIOI");
+    printf ("HOC_BONG_GIOI");
   }
   else if ( 7.0 <= dtb < 8.0) && 70 <= drl < 80
   {
-    printf ("KHA";
+    printf ("HOC_BONG_KHA");
   }
   else if ( dtb < 7.0) && drl < 70
   {
