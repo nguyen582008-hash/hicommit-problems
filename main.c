@@ -1,11 +1,10 @@
-// HICOMMIT TEMPLATE FOR C
 #include <stdio.h>
 
-int main() {
-    
-    /*
-        Your code goes here. Happy coding!
-    */
-
-    return 0;
+int main() 
+{
+  int w,h,bmi;
+  scanf ("%f%f"&w,&h);
+  bmi = w / ((h/100)*(h/100));
+  
+  return 0;
 }
