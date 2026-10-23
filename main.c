@@ -4,7 +4,10 @@ int main()
 {
   int dtb;
   int drl;
-  scanf ("%f,%d", &dtb, &drl);
+  if(scanf ("%f,%d", &dtb, &drl) != 2){
+    return 0;
+  }
+    
   if (dtb >=9.0)
     printf(dbt,"XUAT_SAC");
   else if ( 8.0 <= dtb < 9.0)
