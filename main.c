@@ -4,26 +4,23 @@ int main()
 {
   int dtb;
   int drl;
-  if(scanf ("%f,%d", &dtb, &drl) != 2){
-    return 0;
-  }
-    
+  scanf ("%f,%d", &dtb, &drl) != 2)
   if (dtb >=9.0)
-    printf(dbt,"XUAT_SAC");
+    printf("XUAT_SAC");
   else if ( 8.0 <= dtb < 9.0)
-    printf (dtb,"GIOI");
+    printf ("GIOI");
   else if ( 7.0 <= dtb < 8.0)
-    printf (dtb,"KHA";
+    printf ("KHA";
   else if ( dtb < 7.0)
-    printf (dtb,"KHONG_DAT");
+    printf ("KHONG_DAT");
   
   if (drl >= 90)
-    printf(drt,"XUAT_SAC");
+    printf("XUAT_SAC");
   else if (80 <= drl < 90)
-    printf(drt,"TOT");
+    printf("TOT");
   else if (70 <= drl < 80)
-    printf(drt,"KHA ");
+    printf("KHA ");
   else if (drl < 70)
-    printf(drt,"KHONG_DAT ");
+    printf("KHONG_DAT ");
   return 0;
 }
