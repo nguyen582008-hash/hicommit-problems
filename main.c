@@ -5,7 +5,7 @@ int main()
   float dtb;
   float drl;
   scanf ("%f%f", &dtb, &drl);
-  if( (dtb >9.0) && (drl >= 90))
+  if( (dtb > 9.0) && (drl >= 90))
   {
     printf("HOC_BONG_XUAT_SAC\n");
   }
@@ -13,7 +13,7 @@ int main()
   {
     printf ("HOC_BONG_GIOI\n");
   }
-  else if (( 7.0 >= dtb >= 8.0) && (70 >= drl >= 80))
+  else if (( 7.0 <= dtb >= 8.0) && (70 >= drl >= 80))
   {
     printf ("HOC_BONG_KHA\n");
   }
