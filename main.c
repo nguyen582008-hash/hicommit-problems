@@ -2,7 +2,7 @@
 
 int main() 
 {
-  int w,h,bmi;
+  float w,h,bmi;
   scanf ("%f%f"&w,&h);
   bmi = w / ((h/100)*(h/100));
   if (bmi < 18.5)  
