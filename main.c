@@ -1,11 +1,12 @@
-// HICOMMIT TEMPLATE FOR C
 #include <stdio.h>
 
-int main() {
-    
-    /*
-        Your code goes here. Happy coding!
-    */
-
-    return 0;
+int main() 
+{
+  int xeploai;
+  scanf ("%d",&xeploai)
+  switch(xeploai)
+    {
+        
+    }
+  return 0;
 }
