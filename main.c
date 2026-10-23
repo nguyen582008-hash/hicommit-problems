@@ -9,11 +9,11 @@ int main()
   {
     printf("HOC_BONG_XUAT_SAC\n");
   }
-  else if (( 8.0 >= dtb > 9.0) && (80 >= drl > 90))
+  else if ((  >= dtb < 8.0) && (>= drl < 80))
   {
     printf ("HOC_BONG_GIOI\n");
   }
-  else if (( 7.0 <= dtb >= 8.0) && (70 >= drl >= 80))
+  else if ((  <= dtb >= 7.0) && ( >= drl >= 70))
   {
     printf ("HOC_BONG_KHA\n");
   }
