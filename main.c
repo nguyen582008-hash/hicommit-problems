@@ -2,9 +2,9 @@
 
 int main() 
 {
-  float w,h,bmi;
-  scanf ("%f%f"&w,&h);
-  bmi = w / ((h/100)*(h/100));
+  float w,h,BMI;
+  scanf ("%f%f",&w,&h);
+  bmi = w / ((h / 100.0)*(h / 100.0));
   if (bmi < 18.5)  
     printf ("UNDERWEIGHT\n");
   else if (BMI < 25	)
