@@ -4,7 +4,7 @@ int main()
 {
   int abs;
   float gpa,min;
-  scanf("%f%f%d,&gpa,&min,&abs");
+  scanf("%f %f %d",&gpa,&min,&abs);
   if (abs > 3) 
  {
     printf("FAIL_ATTENDANCE");
