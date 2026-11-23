@@ -32,6 +32,7 @@ int main()
     }
   }
   if (d <= maxday)
+  {
     {
       printf("VALID");
     }
@@ -39,7 +40,7 @@ int main()
    {
      printf("INVALID");
    }
-  
+}
   
   
     
