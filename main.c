@@ -33,7 +33,7 @@ int main()
       printf("VALID");
     }
      else 
-  {
+   {
      printf("INVALID");
    }
   }
