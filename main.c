@@ -25,6 +25,9 @@ int main()
    {
       printf("PASS");
    }
-  
+  else 
+  {
+    printf("FAIL");
+  }
   return 0;
 }
