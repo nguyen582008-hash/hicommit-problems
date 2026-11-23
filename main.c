@@ -3,7 +3,7 @@
 int main()
 {
   double d;
-  double tien;
+  int tien;
   scanf("%lf",&d);
   if (d<=1)
   {
@@ -18,7 +18,7 @@ int main()
     tien=1*15000+4*13000+(d-5)*11000;
   }
   
-  printf("%.0lf", tien);
+  printf("%lf", tien);
     
   
   
