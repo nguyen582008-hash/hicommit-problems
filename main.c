@@ -23,7 +23,9 @@ int main()
  else
   {
   if (y % 400 == 0 || (y % 4 == 0 && y % 100 != 0))
-  maxday= 29;
+  {
+    maxday= 29;
+  }
     else 
     {
       maxday = 28;
